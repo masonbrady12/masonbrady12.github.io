@@ -1,0 +1,90 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #232222;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(19, 154, 172);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header h1 {
+    color: #08b595;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro-text {
+    color: #193247;
+    font-size: 20px;
+    text-align: center;
+}
+
+.name-heading {
+    color: #52a352; 
+    text-align: center;
+}
+
+.intro-paragraph {
+    color: #ee19ee; 
+    text-align: center;
+    font-size: 18px;
+}
+
+.hobby-paragraph {
+    color: #640edc; 
+    text-align: center;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    color: #888165;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #00c3ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #cb1123;
+}
